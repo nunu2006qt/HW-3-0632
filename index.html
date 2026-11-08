@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อนุตร ลีรัตนะกุลวงศ์ - MyPage v2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="app-title">
+            <i class="fa-solid fa-code"></i>
+            <span>MyPage v2 - อนุตร ลีรัตนะกุลวงศ์</span>
+        </div>
+        <nav class="nav-buttons">
+            <a href="index.html" class="nav-link-btn active"><i class="fa-solid fa-user"></i> หน้าหลัก (index.html)</a>
+            <a href="contact.html" class="nav-link-btn"><i class="fa-solid fa-envelope"></i> ติดต่อ (contact.html)</a>
+            <a href="fansite.html" class="nav-link-btn" style="background: linear-gradient(135deg, #5c2c90, #8b5cf6); color:white;"><i class="fa-solid fa-star"></i> Fansite (Re:Zero)</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Profile Card with Circle Image -->
+        <div class="card" style="padding: 0; background: transparent; border: none; box-shadow: none;">
+            <table class="profile-table">
+                <tr>
+                    <td class="profile-img-col">
+                        <img src="Nunu.png" alt="รูปโปรไฟล์ อนุตร ลีรัตนะกุลวงศ์" class="profile-avatar" onerror="this.onerror=null; this.src='Nunu2_2.jpg';">
+                    </td>
+                    <td class="profile-info-col">
+                        <h1 class="profile-name">อนุตร ลีรัตนะกุลวงศ์</h1>
+                        <div class="profile-title">
+                            <i class="fa-solid fa-graduation-cap"></i> นักศึกษาชั้นปีที่ 2 สาขาวิชาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ CAI
+                        </div>
+                        <div class="profile-institution">
+                            <i class="fa-solid fa-building-columns"></i> สถาบันการจัดการปัญญาภิวัฒน์ (PIM)
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- About Me Card -->
+        <div class="card">
+            <h2 class="section-header"><i class="fa-solid fa-user-gear"></i> About Me</h2>
+            <div class="about-text">
+                "ผมเป็นนักศึกษาที่สนใจด้านเทคโนโลยี คอมพิวเตอร์ และการพัฒนาเว็บไซต์ ตอนนี้กำลังฝึกใช้ HTML และ CSS เพื่อสร้างเว็บไซต์ที่ดูดี ใช้งานง่าย และเป็นประโยชน์ เวลาว่างผมชอบเล่นเกม ดูอนิเมะ และเรียนรู้สิ่งใหม่ ๆ โดยพยายามพัฒนาตัวเองทีละนิด"
+            </div>
+            <div>
+                <div class="food-list-title"><i class="fa-solid fa-utensils" style="color: #ef4444;"></i> ของกินที่ชอบ (Top 3 Favorites):</div>
+                <ol class="food-ol">
+                    <li>ชาบู / หมูกระทะ</li>
+                    <li>ข้าวมันไก่</li>
+                    <li>ไก่ทอด</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Experience Card -->
+        <div class="card">
+            <h2 class="section-header"><i class="fa-solid fa-briefcase"></i> Experience (ประสบการณ์การทำงาน / โปรเจกต์)</h2>
+            <table class="custom-table">
+                <thead>
+                    <tr>
+                        <th style="width: 10%;">ปี</th>
+                        <th style="width: 35%;">ชื่อโปรเจกต์ / กิจกรรม</th>
+                        <th style="width: 35%;">เทคโนโลยีที่ใช้</th>
+                        <th style="width: 20%;">สถานะ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>2026</strong></td>
+                        <td>พัฒนาเว็บไซต์ DontriHub.com</td>
+                        <td>HTML / CSS Web Application</td>
+                        <td><span class="badge-status badge-ongoing"><i class="fa-solid fa-spinner fa-spin"></i> กำลังพัฒนา</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>2026</strong></td>
+                        <td>ออกแบบและพัฒนา Portfolio บน GitHub Pages</td>
+                        <td>Git, GitHub Pages, HTML/CSS</td>
+                        <td><span class="badge-status badge-completed">เสร็จสิ้น</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>2026</strong></td>
+                        <td>AWS Academy Cloud Automation Exercises</td>
+                        <td>Cloud Computing & Automation Labs</td>
+                        <td><span class="badge-status badge-ongoing">กำลังดำเนินการ</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Skills Card -->
+        <div class="card">
+            <h2 class="section-header"><i class="fa-solid fa-bolt"></i> Skills & ระดับพลัง (ความรู้พื้นฐาน - เริ่มต้น)</h2>
+            <table class="custom-table">
+                <thead>
+                    <tr>
+                        <th style="width: 30%;">ทักษะ</th>
+                        <th style="width: 25%;">ระดับความเชี่ยวชาญ</th>
+                        <th style="width: 30%;">กราฟระดับพลัง</th>
+                        <th style="width: 15%;">คะแนน</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>HTML / CSS</strong></td>
+                        <td>Basic / Beginner</td>
+                        <td><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 45%;"></div></div></td>
+                        <td><strong>45%</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Python</strong></td>
+                        <td>Basic</td>
+                        <td><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 40%;"></div></div></td>
+                        <td><strong>40%</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Java / NetBeans</strong></td>
+                        <td>Beginner</td>
+                        <td><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 35%;"></div></div></td>
+                        <td><strong>35%</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>SQL & Database Design</strong></td>
+                        <td>Beginner</td>
+                        <td><div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 35%;"></div></div></td>
+                        <td><strong>35%</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/nunu2006qt" target="_blank"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i> contact.html</a>
+        </div>
+        <div>&copy; 2026 อนุตร ลีรัตนะกุลวงศ์ | สถาบันการจัดการปัญญาภิวัฒน์</div>
+    </footer>
+</body>
+</html>

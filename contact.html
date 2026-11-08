@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="app-title">
+            <i class="fa-solid fa-envelope"></i>
+            <span>หน้าติดต่อ (contact.html)</span>
+        </div>
+        <nav class="nav-buttons">
+            <a href="index.html" class="nav-link-btn"><i class="fa-solid fa-user"></i> หน้าหลัก (index.html)</a>
+            <a href="contact.html" class="nav-link-btn active"><i class="fa-solid fa-envelope"></i> ติดต่อ (contact.html)</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h2 class="section-header"><i class="fa-solid fa-address-book"></i> แบบฟอร์มติดต่อ (Contact Form)</h2>
+            <form onsubmit="event.preventDefault(); alert('ส่งข้อความเรียบร้อยแล้ว!');">
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label>ชื่อ - นามสกุล <span style="color:red;">*</span></label>
+                        <input type="text" class="form-control" placeholder="กรอกชื่อ-นามสกุลของคุณ" required>
+                    </div>
+                    <div class="form-group">
+                        <label>อีเมลติดต่อ <span style="color:red;">*</span></label>
+                        <input type="email" class="form-control" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>หัวข้อติดต่อ <span style="color:red;">*</span></label>
+                        <input type="text" class="form-control" placeholder="หัวข้อ..." required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>ข้อความ <span style="color:red;">*</span></label>
+                        <textarea class="form-control" style="min-height: 120px;" placeholder="ข้อความ..." required></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn-submit"><i class="fa-solid fa-paper-plane"></i> ส่งข้อความ</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">กลับหน้าหลัก</a>
+        </div>
+        <div>&copy; 2026 อนุตร ลีรัตนะกุลวงศ์</div>
+    </footer>
+</body>
+</html>
